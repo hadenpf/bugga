@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "@bugga/api",
+  "version": "1.0.0",
+  "author": "hadenpf",
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "noEmit": true
+  },
+  "include": ["assets.d.ts", "theme.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

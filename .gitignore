@@ -1,0 +1,15 @@
+# environment
+.env
+.env.*
+!.env.example
+
+# output
+build/
+dist/
+*.log
+
+# JS spam
+node_modules/
+
+# OS spam
+.DS_Store

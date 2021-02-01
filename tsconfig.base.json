@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "preserveWatchOutput": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "strict": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "bugga",
+  "version": "1.0.0",
+  "author": "hadenpf",
+  "repository": "git@github.com:hadenpf/bugga",
+  "license": "UNLICENSED",
+  "workspaces": {
+    "packages": [
+      "api",
+      "web"
+    ]
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "web": "yarn workspace @bugga/web",
+    "api": "yarn workspace @bugga/api"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "prettier": "^2.2.1"
+  }
+}

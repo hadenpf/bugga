@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "name": "@bugga/web",
+  "version": "1.0.0",
+  "author": "hadenpf",
+  "scripts": {
+    "build": "webpack",
+    "start": "ts-node ./src/server.tsx",
+    "dev": "webpack serve"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@hot-loader/react-dom": "^17.0.1",
+    "@svgr/webpack": "^5.5.0",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-hot-loader": "^4.1.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "@types/webpack": "^4.41.26",
+    "@types/webpack-dev-server": "^3.11.1",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "helmet-webpack-plugin": "^0.0.3",
+    "html-webpack-plugin": "^4.5.1",
+    "react-router-dom": "^5.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
